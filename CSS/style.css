@@ -2,14 +2,17 @@
 @import url(apresentacao.css);
 @import url(sobremim.css);
 @import url(projeto.css);
+@import url(contato.css);
+@import url(footer.css);
 
 :root {
     --branco: #ffffff;
     --laranja: #e44d26;
     --fonte-principal: "Poppins";
     --fonte-secundaria: "DM Serif Display";
-    --branco-bio: rgba(226, 232, 240, 0.8);
-    --vidro: rgba(255, 60, 0, 0.76);
+    --branco-bio: rgba(226, 232, 240, 0.7);
+    --vidro: rgba(255, 60, 0, 0.61);
+    --claro: rgba(197, 182, 174, 0.2);
 }
 
 * {

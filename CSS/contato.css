@@ -1,0 +1,53 @@
+.contatos{
+    padding-bottom: 1em;
+}
+
+.formulario__contato{
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border: 1px solid var(--vidro);
+    border-radius: 16px;
+}
+
+.grupo__form{
+    margin-bottom: 1rem;
+    padding-right: 1.2rem;
+}
+
+.campo__form{
+    padding: 1rem;
+    width: 98%;
+    margin: 0 auto;
+    background: var(--claro);
+    border-radius: 8px;
+    border: 1px solid var(--vidro);
+    outline: none;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+}
+
+.campo__form:focus{
+    border-color: rgba(255, 60, 0, 0.4);
+    box-shadow: 0 0 10px rgba(255, 60, 0, 0.4);
+}
+
+.botao__form{
+    color: var(--laranja);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.5 ease;
+}
+
+.botao__form:hover{
+    transform: translateY(-3px);
+    color: var(--branco);
+    background: var(--laranja);
+}

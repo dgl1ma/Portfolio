@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;       /* faz acompanhar o scroll */
+  bottom: 10px;          /* distância da borda inferior */
+  right: 10px;           /* distância da borda direita */
+  z-index: 1000;         /* garante que fique acima do conteúdo */
+}
+
+.imgdownload {
+  width: auto;           /* controla o tamanho da imagem */
+  height: auto;          /* mantém proporção */
+  cursor: pointer;       /* deixa com aparência de botão clicável */
+  transition: transform 0.2s;
+}
+
+.imgdownload:hover {
+  transform: scale(1.1); /* efeito ao passar o mouse */
+}
