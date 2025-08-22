@@ -2,19 +2,23 @@
 @import url(apresentacao.css);
 @import url(sobremim.css);
 @import url(projeto.css);
-@import url(carrossel.css);
 
 :root {
     --branco: #ffffff;
     --laranja: #e44d26;
     --fonte-principal: "Poppins";
-    --fonte-secundaria: "DM Serif Display"
-
+    --fonte-secundaria: "DM Serif Display";
+    --branco-bio: rgba(226, 232, 240, 0.8);
+    --vidro: rgba(255, 60, 0, 0.76);
 }
 
 * {
     padding: 0;
     margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 /* Fundo personalizado */
