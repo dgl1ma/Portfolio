@@ -1,0 +1,17 @@
+.cabecalho {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    backdrop-filter: blur(2.5px);
+    padding: 2.5em;
+}
+
+.botao {
+    background-color: initial;
+    border: initial;
+}
+
+.bandeira {
+    width: 25px;
+    height: auto;
+}

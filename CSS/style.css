@@ -1,0 +1,43 @@
+@import url(header.css);
+@import url(apresentacao.css);
+@import url(sobremim.css);
+@import url(projeto.css);
+@import url(carrossel.css);
+
+:root {
+    --branco: #ffffff;
+    --laranja: #e44d26;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "DM Serif Display"
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Fundo personalizado */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #090c13;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    pointer-events: none;
+}
