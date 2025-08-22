@@ -16,7 +16,7 @@
 
 .projetos__card{
     background: rgba(255, 255, 255, 0.05);
-    border-radius: 16px;
+    border-radius: 1rem;
     backdrop-filter: blur(5px);
     border: 1px solid var(--vidro);
     overflow: hidden;
@@ -30,7 +30,7 @@
 }
 
 .projetos__img{
-    height: 200px;
+    height: 12.5rem;
     width: 100%;
     object-fit: cover;
 }
@@ -42,7 +42,7 @@
 
 .info__projetos{
     color: var(--branco-bio);
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-family: var(--fonte-principal);
     text-align: center;
 }
@@ -51,7 +51,7 @@
     color: var(--branco-bio);
     line-height: 1.25rem;
     font-family: var(--fonte-principal);
-    font-weight: 300px;
+    font-weight: 18.75rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }

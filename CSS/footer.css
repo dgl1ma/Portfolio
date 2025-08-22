@@ -1,7 +1,7 @@
 .footer {
   position: fixed;       /* faz acompanhar o scroll */
-  bottom: 10px;          /* distância da borda inferior */
-  right: 10px;           /* distância da borda direita */
+  bottom: 0.625rem;          /* distância da borda inferior */
+  right: 0.625rem;           /* distância da borda direita */
   z-index: 1000;         /* garante que fique acima do conteúdo */
 }
 

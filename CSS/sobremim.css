@@ -16,9 +16,9 @@
 .icone{
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 4.375rem;
 }
 
 .icone__logo{
-    height: 80px;
+    height: 5rem;
 }
